@@ -107,7 +107,7 @@ const Homepage = () => {
                                     <Link to="/">
                                         <div className="logo">
                                             <div className="image">
-                                                <img src="../../public/images/Logo.png" alt="logo" />
+                                                <img src="./images/Logo.png" alt="logo" />
                                             </div>
                                             <p>Restau<span>rant</span></p>
                                         </div>
@@ -140,7 +140,7 @@ const Homepage = () => {
                                             <Link to="/">
                                                 <div className="logo">
                                                     <div className="image">
-                                                        <img src="../../public/images/Logo.png" alt="logo" />
+                                                        <img src="./images/Logo.png" alt="logo" />
                                                     </div>
                                                     <p>Restau<span>rant</span></p>
                                                 </div>
@@ -186,11 +186,11 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="right">
-                            <img className="flower" src="../../public/images/flower.png" alt="flower" />
+                            <img className="flower" src="./images/flower.png" alt="flower" />
                             <div className="image">
-                                <img src="../../public/images/Hero_image_1.png" alt="" />
+                                <img src="./images/Hero_image_1.png" alt="" />
                             </div>
-                            <img className="offer" src="../../public/images/Offer.png" alt="flower" />
+                            <img className="offer" src="./images/Offer.png" alt="flower" />
 
                         </div>
                     </div>
@@ -204,10 +204,10 @@ const Homepage = () => {
             {/* Banner Part Start*/}
             <div className="banner">
                 <div className="container">
-                    <img className="sideImg" src="../../public/images/banner_side.png" alt="" />
+                    <img className="sideImg" src="./images/banner_side.png" alt="" />
                     <div className="upper_part">
                         <div className="image">
-                            <img src="../../public/images/Banner-image.png" alt="" />
+                            <img src="./images/Banner-image.png" alt="" />
                         </div>
                         <div className="banner_content">
                             <div className="banner_section">
@@ -247,7 +247,7 @@ const Homepage = () => {
                         <div className="cards">
                             <div className="card">
                                 <div className="icon">
-                                    <img src="../../public/images/package.png" alt="" />
+                                    <img src="./images/package.png" alt="" />
                                 </div>
                                 <div className="info">
                                     <h5 className="title">Fast Delivery</h5>
@@ -256,7 +256,7 @@ const Homepage = () => {
                             </div>
                             <div className="card">
                                 <div className="icon">
-                                    <img src="../../public/images/medal.png" alt="" />
+                                    <img src="./images/medal.png" alt="" />
                                 </div>
                                 <div className="info">
                                     <h5 className="title">Absolute Dinning</h5>
@@ -265,7 +265,7 @@ const Homepage = () => {
                             </div>
                             <div className="card">
                                 <div className="icon">
-                                    <img src="../../public/images/bag.png" alt="" />
+                                    <img src="./images/bag.png" alt="" />
                                 </div>
                                 <div className="info">
                                     <h5 className="title">PickUp Delivery</h5>
@@ -280,7 +280,7 @@ const Homepage = () => {
 
             {/* Popular Food Items Part Start*/}
             <section className="food">
-                <img className="food_sideImg" src="../../public/images/Food_sideImg.png" alt="" />
+                <img className="food_sideImg" src="./images/Food_sideImg.png" alt="" />
                 <div className="container">
                     <div className="heading">
                         <div className="content">
@@ -363,7 +363,7 @@ const Homepage = () => {
             {/* Popular Food Items Part End*/}
             {/* Book Table part Start */}
             <section className='bookTable'>
-                <img src="../../public/images/Frame 1707478003.png" alt="" />
+                <img src="./images/Frame 1707478003.png" alt="" />
                 <div className="container">
                     <div className="heading">
                         <div className="content">
@@ -392,8 +392,8 @@ const Homepage = () => {
             {/* Book Table part End */}
             {/* Customer Part Start*/}
             <section className="customer">
-                <img className="customer_sideImg_1" src="../../public/images/customer-sideImg-1.png" alt="" />
-                <img className="customer_sideImg_2" src="../../public/images/customer-sideImg-2.png" alt="" />
+                <img className="customer_sideImg_1" src="./images/customer-sideImg-1.png" alt="" />
+                <img className="customer_sideImg_2" src="./images/customer-sideImg-2.png" alt="" />
                 <div className="container">
                     <div className="heading">
                         <div className="content">
@@ -452,7 +452,7 @@ const Homepage = () => {
             {/* Customer Part End*/}
             {/* Footer Part Start*/}
             <section className="footer">
-                <img src="../../public/images/Footer.png" alt="" />
+                <img src="./images/Footer.png" alt="" />
                 <div className="container">
                     <h2>We ready to have you the best dining experiences</h2>
                     <div className="service-cards">

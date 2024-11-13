@@ -18,7 +18,7 @@ const Booking = () => {
                                     <Link to="/">
                                         <div className="logo">
                                             <div className="image">
-                                                <img src="../../public/images/Logo.png" alt="logo" />
+                                                <img src="./images/Logo.png" alt="logo" />
                                             </div>
                                             <p>Restau<span>rant</span></p>
                                         </div>
@@ -44,7 +44,7 @@ const Booking = () => {
             </nav>
             {/* Book Table part Start */}
             <section className='bookTable' style={{display:"block"}}>
-                <img src="../../public/images/Frame 1707478003.png" alt="" />
+                <img src="./images/Frame 1707478003.png" alt="" />
                 <div className="container">
                     <div className="heading">
                         <div className="content">
