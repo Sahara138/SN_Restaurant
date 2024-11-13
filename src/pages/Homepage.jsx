@@ -114,7 +114,7 @@ const Homepage = () => {
                                 </Link>
                                     <div className="menu">
                                         <ul>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/home">Home</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/">Home</NavLink></li>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/about">About</NavLink></li>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/portfolio">Portfolio</NavLink></li>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/clients">Clients</NavLink></li>
@@ -145,11 +145,11 @@ const Homepage = () => {
                                                     <p>Restau<span>rant</span></p>
                                                 </div>
                                             </Link>
-                                            <Link to="/home"><RxCross2 onClick={sidebarOpen}/></Link>
+                                            <Link to="/"><RxCross2 onClick={sidebarOpen}/></Link>
                                         </div>
                                         <div className="list">
                                             <ul onClick={sidebarOpen}>
-                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/home">Home</NavLink></li>
+                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/">Home</NavLink></li>
                                                 <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/about">About</NavLink></li>
                                                 <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/portfolio">Portfolio</NavLink></li>
                                                 <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/clients">Clients</NavLink></li>

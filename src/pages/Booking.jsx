@@ -25,7 +25,7 @@ const Booking = () => {
                                     </Link>
                                     <div className="menu">
                                         <ul>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to='/home'>Home</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to='/'>Home</NavLink></li>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to='/about'>About</NavLink></li>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to='/portfolio'>Portfolio</NavLink></li>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to='/clients'>Clients</NavLink></li>
