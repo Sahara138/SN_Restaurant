@@ -1,0 +1,184 @@
+.footer{
+    width: 100%;
+    height: auto;
+    color: var(--White);
+    text-align: center;
+    position: relative;
+}
+.footer img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.footer h2{
+    padding-top: 120px;
+    font-family: var(--Bebas_Neue);
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+.footer .service-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 24px;
+}
+.footer .service-cards .card p{
+    color: var(--Yellow);
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+.footer .service-cards .card h5{
+    font-family: var(--Bebas_Neue);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+.footer .service-cards .card h6{
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+.footer .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 120px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.footer .social-media .icon{
+    width: 53px;
+    height: 53px;
+    border-radius: 100%;
+    border: 1px solid var(--White);
+    position: relative;
+}
+.footer .social-media .icon:hover{
+
+    border: 1px solid var(--Yellow);
+    color: var(--Yellow);
+
+}
+.footer .social-media .icon p{
+    color: var(--White);
+    font-size: 24px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer .social-media .icon:hover p{
+    color: var(--Yellow);
+}
+.footer .copyright h6{
+    font-family: var(--Montserrat);
+    /* font-weight: 400; */
+    font-size: 21px;
+    line-height: auto;
+    padding-bottom: 120px;
+}
+.footer .copyright span{
+    color: var(--Yellow);
+}
+
+
+
+
+@media screen and (max-width:1919px){
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width:1400px){
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer h2{
+        padding-top: 120px;
+        padding-bottom: 60px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer .service-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer h2{
+        padding-top: 120px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer h2{
+        padding-top: 30px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .footer .service-cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer .service-cards .card p{
+        margin-bottom: 16px;
+    }
+    .footer .social-media{
+        gap: 16.16px;
+        margin-top: 60px;
+        margin-bottom: 16px;
+    }
+    .footer .social-media .icon{
+        width: 36px;
+        height: 36px;
+    }
+    .footer .social-media .icon p{
+        font-size: 16.16px;
+    }
+    .footer .copyright h6{
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+
