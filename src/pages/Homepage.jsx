@@ -168,7 +168,7 @@ const Homepage = () => {
             {/* NavBar Part End */}
             {/* Header Part Start */}
             <section className="Header">
-                <img className="bg_Img" src="../../public/images/Hero.png" alt="" />
+                <img className="bg_Img" src="./images/Hero.png" alt="" />
                 {/* <div className="container"> */}
                 {/* Hero Part Start */}
                 <div className="container">
