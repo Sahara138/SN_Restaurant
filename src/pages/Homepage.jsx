@@ -8,7 +8,6 @@ import "../css/home/Booking.css";
 import { LuPhoneCall } from "react-icons/lu";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import { RiDoubleQuotesL } from "react-icons/ri";
 import { LuClock4 } from "react-icons/lu";
 import { MdOutlineMail } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
@@ -17,7 +16,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 // import { useRef, useState } from "react";
-import { bannerSection, foodMenu } from "../data/data";
+import { foodMenu } from "../data/data";
 import { customerFeedback } from "../data/data";
 import FoodMenu from "./FoodMenu";
 import { useRef, useState } from "react";
@@ -30,10 +29,10 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import {Swiper, SwiperSlide } from "swiper/react";
 import CustomerFeedBack from "./CustomerFeedBack";
 import { RxCross2 } from "react-icons/rx";
-import BannerHeading from "../components/BannerAbout";
 import BannerAbout from "../components/BannerAbout";
 import BannerExperience from "../components/BannerExperience";
 import BannerContact from "../components/BannerContact";
+import { SlCalender } from "react-icons/sl";
 
 
 
@@ -75,14 +74,9 @@ const Homepage = () => {
      const { isLast, isFirst } = slideBegOrNot;
    
 
-    // const handleChange = (e) => {
-    //     e.preventDefault();
-    //     setValue(e.target.value);
-    // };
 
-    const handleButton = () =>{
-        // navigate("/contact");
-    }
+
+
     const renderComponent = () => {
         switch (selectedBtn) {
           case "About":
@@ -158,10 +152,7 @@ const Homepage = () => {
                                             </ul>
                                         </div>
                                     </div>)
-                                    
                                 }
-                                
-                            
                     </div>
                 </div>
             </nav>
@@ -304,10 +295,7 @@ const Homepage = () => {
                         spaceBetween={32}
                         loop={true}
                         speed={1000}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                        
                         breakpoints={{
 
                             300:{
@@ -327,12 +315,16 @@ const Homepage = () => {
                             slidesPerView: 4
                             },
                         }}
-                        onSlideChange={onSlideChange}
+                        // onSlideChange={onSlideChange}
                         pagination={{
                         el: '.swiper-paginations',
                         type: 'fraction',
                         }}
                         navigation={false} 
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: true,
+                        }}
                         modules={[Autoplay,Pagination, Navigation]}
                         className="mySwiper"
                         ref={SlideRef}
@@ -349,7 +341,7 @@ const Homepage = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div className="arrow-icon small_device_food_icon">
+                        <div className="arrow-icon small_device_food_icon">
                             <div className="left-arrow" onClick={handlePrev}>
                                 <IoIosArrowBack className={`arrow ${isFirst ? 'disabled' : ''}`}/>
                             </div>
@@ -377,12 +369,15 @@ const Homepage = () => {
                     </div>
                     <form action="">
                         <input type="text" placeholder="Your Name*" />
-                        <input type="email" placeholder="Your Email*" />
-                        <input type="date" placeholder="Reservation Date" />
+                        <input type="email" placeholder="Your Email" />
+                        <div style={{ position:"relative"}}>
+                            <input   type="text" placeholder="Reservation Date" onFocus="(this.type='date')" />
+                            <span style={{color:"var(--White)", position:"absolute", top:"50%", right:"10px" , zIndex:"99",transform:"translate(0,-50%)"}}><SlCalender /></span>
+                        </div>
                         
                         <input type="number" placeholder="Total People" />
                         <textarea name="" id="" rows={5} placeholder="Message"></textarea>
-                        <div className="btn" onClick={handleButton()}>
+                        <div className="btn">
                             <button><Link to="/contact"><p>Book Now</p></Link></button>
                         </div>
                     </form>
@@ -439,7 +434,7 @@ const Homepage = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                    <div className="arrow-icon small_device_customer_icon">
+                        <div className="arrow-icon small_device_customer_icon">
                             <div className="left-arrow" onClick={handlePrev}>
                                 <IoIosArrowBack className={`arrow ${isFirst ? 'disabled' : ''}`}/>
                             </div>

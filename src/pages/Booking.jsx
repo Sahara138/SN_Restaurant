@@ -58,8 +58,11 @@ const Booking = () => {
                     </div>
                     <form action="">
                         <input type="text" placeholder="Your Name*" />
-                        <input type="email" placeholder="Your Email*" />
-                        <input type="date" placeholder="Reservation Date" />
+                        <input type="email" placeholder="Your Email" />
+                        <div style={{ position:"relative"}}>
+                            <input   type="text" placeholder="Reservation Date" onFocus="(this.type='date')" />
+                            <span style={{color:"var(--White)", position:"absolute", top:"50%", right:"10px" , zIndex:"99",transform:"translate(0,-50%)"}}><SlCalender /></span>
+                        </div>
                         
                         <input type="number" placeholder="Total People" />
                         <textarea name="" id="" rows={5} placeholder="Message"></textarea>

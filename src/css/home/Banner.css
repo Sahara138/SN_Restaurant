@@ -386,6 +386,7 @@
         flex-wrap: wrap;
         width: 100%;
         margin-bottom: 0;
+        align-items:flex-start;
     }
     .banner .upper_part .image{
         width: 100%;
