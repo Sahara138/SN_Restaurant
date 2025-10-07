@@ -341,14 +341,14 @@ const Homepage = () => {
                             </SwiperSlide>
                         ))}
                     </Swiper>
-                        <div className="arrow-icon small_device_food_icon">
+                        {/* <div className="arrow-icon small_device_food_icon">
                             <div className="left-arrow" onClick={handlePrev}>
                                 <IoIosArrowBack className={`arrow ${isFirst ? 'disabled' : ''}`}/>
                             </div>
                             <div className="right-arrow" onClick={handleNext}>
                                 <IoIosArrowForward className={`arrow ${isLast ? 'disabled' : ''}`}/>
                             </div>
-                        </div>
+                        </div> */}
 
                 </div>
             </section>
