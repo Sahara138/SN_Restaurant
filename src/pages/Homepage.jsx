@@ -281,14 +281,14 @@ const Homepage = () => {
                             </div>
                             <p>Popular Food Items</p>
                         </div>
-                        <div className="arrow-icon">
+                        {/* <div className="arrow-icon">
                             <div className="left-arrow" onClick={handlePrev}>
                                 <IoIosArrowBack className={`arrow ${isFirst ? 'disabled' : ''}`}/>
                             </div>
                             <div className="right-arrow" onClick={handleNext}>
                                 <IoIosArrowForward className={`arrow ${isLast ? 'disabled' : ''}`}/>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <Swiper
                         slidesPerView={4}
