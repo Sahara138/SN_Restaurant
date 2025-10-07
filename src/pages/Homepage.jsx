@@ -109,11 +109,11 @@ const Homepage = () => {
                                     <div className="menu">
                                         <ul>
                                             <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/">Home</NavLink></li>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/about">About</NavLink></li>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/portfolio">Portfolio</NavLink></li>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/clients">Clients</NavLink></li>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/blog">Blog</NavLink></li>
-                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/contact">Contact</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">About</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Portfolio</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Clients</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Blog</NavLink></li>
+                                            <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Contact</NavLink></li>
                             
                                             
                                         </ul>
@@ -144,11 +144,11 @@ const Homepage = () => {
                                         <div className="list">
                                             <ul onClick={sidebarOpen}>
                                                 <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/">Home</NavLink></li>
-                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/about">About</NavLink></li>
-                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/portfolio">Portfolio</NavLink></li>
-                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/clients">Clients</NavLink></li>
-                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/blog">Blog</NavLink></li>
-                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="/contact">Contact</NavLink></li>
+                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">About</NavLink></li>
+                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Portfolio</NavLink></li>
+                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Clients</NavLink></li>
+                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Blog</NavLink></li>
+                                                <li><NavLink className={({ isActive}) =>  (isActive ? "active" : "")} to="#">Contact</NavLink></li>
                                             </ul>
                                         </div>
                                     </div>)
